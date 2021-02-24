@@ -19,54 +19,42 @@ namespace lab3_nesterov_kak_delfi_1_laba_
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
-            int c;
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
+            double c;
             c = a + b;
             textBox3.Text = Convert.ToString(c);
             label4.Text = "Сложение";
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
-            int c;
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
+            double c;
             c = a - b;
             textBox3.Text = Convert.ToString(c);
             label4.Text = "Вычитание";
-
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
-            int c;
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
+            double c;
             c = a / b;
             textBox3.Text = Convert.ToString(c);
             label4.Text = "Деление";
-
-
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int a = Convert.ToInt32(textBox1.Text);
-            int b = Convert.ToInt32(textBox2.Text);
-            int c;
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
+            double c;
             c = a * b;
             textBox3.Text = Convert.ToString(c);
             label4.Text = "Умножение";
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            textBox1.Clear();
-            textBox2.Clear();
-            textBox3.Clear();
         }
     }
 }
